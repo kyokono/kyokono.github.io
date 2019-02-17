@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Klam's Lab</title>
+ <link href="http://username.github.io/atom.xml" rel="self"/>
+ <link href="http://username.github.io"/>
+ <updated>2019-02-11T10:32:18-08:00</updated>
+ <id>http://username.github.io</id>
+ <author>
+   <name>Travis</name>
+   <email>blah@email.test</email>
+ </author>
+
+ 
+ <entry>
+   <title>New Horizons</title>
+   <link href="http://username.github.io/gentoo-is-great"/>
+   <updated>2019-02-10T00:00:00-08:00</updated>
+   <id>http://username.github.io/gentoo-is-great</id>
+   <content type="html">&lt;p&gt;So, I finally went and installed gentoo, although it wasn’t the authentic gentoo install, because cloveros from our good friends over at /g/ exists, so I downloaded that, used the ubuntu 18.04 iso burner, burned it to my working flash drive, and off I went&lt;/p&gt;
+
+&lt;p&gt;Of course I’m going to have to git clone my repos now, and resinstall wine and stuff&lt;/p&gt;
+
+&lt;p&gt;but yea, its pretty good so far, far outperforms every other distro.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>New Horizons</title>
+   <link href="http://username.github.io/new-horizons"/>
+   <updated>2019-02-09T00:00:00-08:00</updated>
+   <id>http://username.github.io/new-horizons</id>
+   <content type="html">&lt;p&gt;I’m really fed up with ubuntus lack of concern regarding their users data collection. Guess it’s time to install gentoo and get going. I might regret this decision though, so who knows. I hope I can transfer my files seamlessly, I’ll unplug the hard drives in case the partition stuff gets too crazy. I just wonder how much I’m going to lose from this, because obviously I’m going to have to wait on some large file transfers.
+Oh well, looks like im going to be busy again, a rare occurance.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rewriting The AI</title>
+   <link href="http://username.github.io/Rewriting-The-AI"/>
+   <updated>2019-01-01T00:00:00-08:00</updated>
+   <id>http://username.github.io/Rewriting-The-AI</id>
+   <content type="html">&lt;p&gt;So, I was originally going to rewrite the original paragon personal assistant, but I’ve decided to simply start with the base code, and redisgn it with not only a multiplatform design in mind, but a multi user/loose design in mind.&lt;/p&gt;
+
+&lt;p&gt;Some changes that are going to be made (hopefully):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Relative directory names assigned at setup&lt;/li&gt;
+  &lt;li&gt;Preconfigured database downloads, along with prompts to ask for downloads if the databases don’t exist (which means a comprehensive 404/400 exception process)&lt;/li&gt;
+  &lt;li&gt;a requirements.txt file and a linux.sh and a windows.sh for the various install methods, available on the github. If one wants to compile and setup the code by hand, theyre more than welcome to do that.&lt;/li&gt;
+  &lt;li&gt;Work on a step by step guide for any account information that might be needed in order to set up things for wolfram, or any other thing.&lt;/li&gt;
+  &lt;li&gt;Check for certain programs installed at the runtime of the installer, and configure the code to run with those software included, along with any functionality.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, as one can see, there’s a lot of new features being sought after, along with the major overhauling of the code and the libraries. For example&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Speech Recognition driver overhaul (look into writing the speech recognition in C++, as it allows much faster runtimes)&lt;/li&gt;
+  &lt;li&gt;Provide an option for the video based libraries (Person Identifier, object detector), along with optimization of those algorithms (remove the windows, so that they don’t have to render in realtime)&lt;/li&gt;
+  &lt;li&gt;Speech Synthesis library, only thing that needs to be done is further increase the accuracy, and increase the speed. This should be easy, as it uses the original tacotron algorithm released by google back in 2016-2017.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, I’ll keep you guys updated and informed on the status of the code, but keep in mind I’m also working on an operating system, which is booting at the moment, I’ve got to get a package manager running, I’m going to use dpkg, wget, and apt, for handling downloads. 
+I also still have this website to maintain, not that this is a bad thing, but I might potentially be on the path to too many projects, which I don’t dislike, but things such as my school grades and my social life may suffer as a result, but at least I’m occupied.
+  -kalbot&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>First Article!</title>
+   <link href="http://username.github.io/First-Article!"/>
+   <updated>2018-12-24T00:00:00-08:00</updated>
+   <id>http://username.github.io/First-Article!</id>
+   <content type="html">&lt;p&gt;#Hello All!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I’d just like to start out with the disclaimer that anything on this blog is intended for educational purposes only, if it deals with cybersecurity or penetration testing, I don’t advocate anyone to take anything from this blog and potentially bring harm or misfortunate to anyone. That being said, I do not take responsability for any of your actions, only know that I do not advocate for anything negative or harmful. I understand that you have agency, and I can’t override this agency, but just know that if you blame me or cite me as your influence, note that I specifically said not to do this.&lt;/p&gt;
+
+&lt;p&gt;That being said, I think we get started with a few favorite tools of mine:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kali Linux, Ubuntu 16.04, and Black Arch&lt;/li&gt;
+  &lt;li&gt;macchanger&lt;/li&gt;
+  &lt;li&gt;the Raspberry Pi 3&lt;/li&gt;
+  &lt;li&gt;Visual Code Studio&lt;/li&gt;
+  &lt;li&gt;Deathgrips and Tool&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>
